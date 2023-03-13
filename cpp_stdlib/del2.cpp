@@ -42,7 +42,7 @@ void findtheString(const std::filesystem::path startPath){
     
     if (std::filesystem::is_directory(de.path())){
     	
-     	findString(de.path());
+     	findtheString(de.path());
     }
       
     }
